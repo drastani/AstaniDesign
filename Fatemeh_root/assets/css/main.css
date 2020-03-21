@@ -1,0 +1,100 @@
+/* THIS IS YOUR CSS FILE */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+h1,
+h2 {
+    
+    font-family: 'Lobster', cursive; 
+    font-size: 40px;
+}
+
+p{ font-size: 18px;
+}
+h1{ font-size: 70px;
+text-align:center;
+     color:#383F51;
+}
+p{
+    color:#383F51;
+}
+
+h2{
+    
+    color: #383F51;
+}
+
+h3{
+  color:#E16F7C;
+
+font-weight:bold;
+font-size: 25px;
+}
+h4{ font-weight: bold;
+color:#383F51;
+font-size:20px;
+}
+h5{font-size: 10px ;
+    font-weight: 100;
+}
+header{
+    background-image: url(../../img/white-painted-wall-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    padding: 60px;
+}
+.bg-blue { 
+    background-color: #383F51 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #DBB3B1;
+}
+
+section{
+    padding:50px 0;
+}
+.about{
+    background-color:#DBB3B1;
+    padding-top: 60px;
+}
+.about h2{
+    color:
+        #383F51;}
+.about p{
+    color:#383F51;
+}
+h4 .timeline {
+    float: right;
+    font-size: 20px ;}
+
+.resume ul{
+    padding-left:20px;
+}
+.portfolio{
+    background-color: #3B4E75;
+
+}
+.portfolio h2{
+   color:#F6F4F3;
+
+}
+.portfolio img{ margin: 15px 0;
+    padding-left: 30px ;
+}
+footer{
+    background-color:#383F51;
+        padding-left: 10px ;
+}
+footer p{
+    color:#F6F4F3;
+}
+
+@media only screen and (max-width: 600px)
+{ body {
+        background-image: url(../../img/pink-clouds-1831234.jpg);}
+}
